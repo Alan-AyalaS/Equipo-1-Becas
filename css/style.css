@@ -1,0 +1,103 @@
+:root {
+    --color_principal: #F8EDE3;
+    --color_secundario: #DFD3C3;
+    --color_terciario: #D0B8A8;
+    --color_cuatro: #7D6E83;
+
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--color_principal);
+}
+
+* {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 7rem;
+}
+main h1{
+    text-align: center;
+    color: #7D6E83;
+}
+
+header {
+    background-color:var(--color_secundario);
+    padding: 15px;
+    margin-bottom: 50px;
+    color: rgb(41, 50, 39);
+}
+
+header ul{
+    margin-left: 30px;
+    font-size: 5.5rem;
+}
+
+main .miembros{
+    color: #fff;
+    margin-top: 50px;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--color_terciario);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4rem;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.75);
+}
+
+main .miembros .alan {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+main .miembros .alan p{
+    margin-right: 135px;
+    background-color: var(--color_cuatro);
+    padding: 15px;
+}
+
+main .miembros .alan a{
+    background-color: var(--color_cuatro);
+    padding: 15px;
+}
+
+
+main .miembros .roberto {
+    display: flex;
+}
+
+main .miembros .roberto p{
+    margin-right: 119px;
+    background-color: var(--color_cuatro);
+    padding: 15px;
+}
+
+main .miembros .roberto .roberto_matricula{
+    margin-right: 128px;
+}
+
+main .miembros .roberto a{
+    background-color: var(--color_cuatro);
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(46, 57, 39);
+}
+
+
+
+
