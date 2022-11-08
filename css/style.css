@@ -3,7 +3,9 @@
     --color_secundario: #DFD3C3;
     --color_terciario: #D0B8A8;
     --color_cuatro: #7D6E83;
-
+    --fuente_principal: 'Merriweather', serif;
+    --fuente_dos: 'Josefin Sans', sans-serif;
+    --fuente_tres: 'Signika', sans-serif;
 }
 
 html {
@@ -20,15 +22,19 @@ html {
 h1 {
     font-size: 7rem;
 }
+
 main h1{
+    font-family: var(--fuente_dos);
     text-align: center;
     color: #7D6E83;
 }
 
 header {
+    font-family: var(--fuente_principal);
+    font-weight: bold;
     background-color:var(--color_secundario);
     padding: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     color: rgb(41, 50, 39);
 }
 
@@ -38,6 +44,7 @@ header ul{
 }
 
 main .miembros{
+    font-family: var(--fuente_tres);
     color: #fff;
     margin-top: 50px;
     width: 50%;
@@ -46,8 +53,7 @@ main .miembros{
     background-color: var(--color_terciario);
     margin-left: auto;
     margin-right: auto;
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 5rem;
     -webkit-box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.75);
@@ -81,7 +87,7 @@ main .miembros .roberto p{
 }
 
 main .miembros .roberto .roberto_matricula{
-    margin-right: 128px;
+    margin-right: 122px;
 }
 
 main .miembros .roberto a{

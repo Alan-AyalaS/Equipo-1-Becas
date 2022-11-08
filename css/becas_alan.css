@@ -3,7 +3,9 @@
     --color_secundario: #DFD3C3;
     --color_terciario: #D0B8A8;
     --color_cuatro: #7D6E83;
-
+    --fuente_principal: 'Merriweather', serif;
+    --fuente_dos: 'Josefin Sans', sans-serif;
+    --fuente_tres: 'Signika', sans-serif;
 }
 
 html {
@@ -19,6 +21,8 @@ html {
 
 
 header {
+    font-family: var(--fuente_principal);
+    font-weight: bold;
     background-color:var(--color_secundario);
     padding: 15px;
     margin-bottom: 50px;
@@ -51,18 +55,24 @@ header nav li a:hover {
 }
 
 main {
+    padding: 25px;
+    overflow: hidden;
+    background-color: var(--color_secundario);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 main h1{
+    font-family: var(--fuente_principal);
     font-size: 7rem;
     text-align: center;
     margin-bottom: 55px;
 }
 
 main h2{
+    text-align: center;
+    font-family: var(--fuente_dos);
     font-size: 5rem;
     margin-bottom: 55px;
 }
@@ -77,21 +87,32 @@ main li{
 }
 
 main ul {
-    margin-bottom: 20px;
+    font-family: var(--fuente_tres);
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    background-color: #fdff9470;
+    padding: 50px;
+    border-radius: 10px;
 }
 
 main ul a {
     font-size: 2.5rem;
 }
 
-main ul h3 {
-    text-align: center;
+main ul li {
+    margin-bottom: 25px;
 }
 
 main p{
+    font-family: var(--fuente_tres);
     margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 2rem;
+    margin-bottom: 70px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
 }
 
 .b_deportiva h2 {
