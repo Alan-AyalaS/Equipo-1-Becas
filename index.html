@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Merriweather&family=Signika:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Merriweather&family=Signika:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Equipo 1 Becas</title>
 </head>
 <body>
@@ -28,10 +29,25 @@
             </div>
             <div class="roberto">
                 <p>Robert Carlos Canizales Juarez</p>
-                <p class="roberto_matricula">19523535</p>
+                <p class="roberto_matricula">1952353</p>
                 <a href="becas_roberto.html">Becas</a>
             </div>
         </div>
+        <section class="mas_info">
+            <button onclick="mostrar()">Más info</button>
+        </section>
     </main>
+    <script type="text/javascript">
+
+            function mostrar() {
+
+                Swal.fire({
+                html: '<h1>Equipo 1</h1><br><p style="font-size:15px">Cristopher Alan Ayala Ochoa 1915611 IAS <br><br>Roberto Carlos Canizales Juarez 1952353 IAS</p><br><h1>Docente</h1><p style="font-size:15px">Ing. Lilia Lizeth Santos López</p><br><h2 style="font-size:15px">Hora: N4<h2>', 
+                icon: 'info',
+                confirmButtonText: 'Cool'
+            });
+
+            }
+    </script>
 </body>
 </html>
